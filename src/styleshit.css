@@ -1,0 +1,212 @@
+﻿.lessthree
+{
+    color: yellow;
+}
+
+.zero
+{
+    color: red;
+}
+
+.normal
+{
+    color: white;
+}
+
+.choice
+{
+    color: blue;
+}
+.lil
+{
+    font-size: 15px;
+}
+.red_bar {
+    margin-top: 5px;
+    margin-inline:2px;
+    width: 20px;
+    height: 15px;
+    background-color: red;
+    display: inline-block;
+}
+.green_bar {
+    margin-top: 5px;
+    margin-inline: 2px;
+    width: 20px;
+    height: 15px;
+    background-color: green;
+    display: inline-block;
+}
+.black_bar {
+    margin-top: 5px;
+    margin-inline: 2px;
+    width: 20px;
+    height: 15px;
+    background-color: black;
+    display: inline-block;
+}
+
+.block {
+    position:relative;
+    width: fit-content;
+    border: 3px solid red;
+    margin-block: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.form{
+    position: relative;
+    top: 10%;
+    left: 0%;
+    margin: 10px;
+}
+
+.form1{
+    position: relative;
+    top: 10%;
+    left: 0%;
+    margin: 10px;
+    margin-top:3px;
+}
+
+.visible{
+    display: block;
+}
+
+.invisible{
+    display: none;
+}
+.table {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    z-index:10;
+    margin: 10px;
+    background: white;
+    border: red;
+    color: black;
+}
+
+.noteBtn {
+    margin: 5px;
+    cursor: pointer;
+    font-size: 25px;
+    border: 2px solid #79e879;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    width: 150px;
+    background: rgba(9, 255, 0, 0.377);
+}
+
+.notes_container {
+    border: 3px solid #79e879;
+    left: 25%;
+    border-radius: 5px;
+    padding: 20px;
+    background: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noteForm {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans serif;
+    background: rgba(70, 199, 66, 0.37);
+    width: 700px;
+    margin: auto;
+    padding: 10px 0 30px 0;
+    border-radius: 5px;
+}
+
+.noteItem {
+    border: 2px solid green;
+    margin: 5px;
+}
+
+.noteItemRed {
+    border: 2px solid green;
+    margin: 5px;
+    background: rgba(255, 0, 0, 0.72);
+}
+
+.textNote {
+    font-size: 25px;
+}
+
+.titleNote {
+    font-size: 35px;
+    color: rgba(11, 91, 11, 0.82);
+}
+
+.dateNote {
+    font-size: 15px;
+}
+
+.input {
+    font-size: 25px;
+    border: 2px solid #79e879;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    width: 300px;
+    margin: 3px auto;
+}
+
+.noteInput {
+    font-size: 25px;
+    border: 2px solid #79e879;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    width: 600px;
+    margin: 3px auto;
+}
+
+
+button {
+    width: contain;
+    font-size: 2vw;
+    margin: 1vmin;
+}
+
+.visible{
+    background-color: aquamarine;
+    border: 1px solid black;
+    width: contain;
+    padding: 3%;
+    display: block;
+    z-index: 10;
+    text-align: center;
+    margin: auto;
+}
+
+.invisible{
+    display: none;
+   
+}
+
+div
+{
+    text-align: center;
+    width: fit-content;
+}
+.comment {
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: chocolate;
+     width: 30%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.spanTag{
+    background-color: yellow;
+}
+
+.lightOn {
+    box-shadow: 10px 5px 5px red;
+}
